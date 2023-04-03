@@ -12,9 +12,9 @@ public class DungeonSetup : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.northExit.SetActive(false);
+        this.northExit.SetActive(true);
         this.southExit.SetActive(true);
-        this.eastExit.SetActive(false);
+        this.eastExit.SetActive(true);
         this.westExit.SetActive(true);
     }
 
